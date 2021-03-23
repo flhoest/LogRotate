@@ -7,13 +7,13 @@ This is an old project but I wanted to share it with the communicty since it is 
 
 Simply edit the script and edit the various configuration variables such as : 
 
-	// Original log file you need to rotate
-  $logFile="mylog.log";
-
-  // Retention (how many logs to keep)
-  $logRetention=5;
-
-	// Maximum size before rotating (in Kb, 1 Mb = 1024 Kb). This is the actual uncompress log size
-	$maxSize="90";
+```
+// Original log file you need to rotate
+$logFile="mylog.log";
+// Retention (how many logs to keep)
+$logRetention=5;
+// Maximum size before rotating (in Kb, 1 Mb = 1024 Kb). This is the actual uncompress log size
+$maxSize="90";
+```
   
   And ... that's it !
